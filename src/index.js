@@ -1,5 +1,5 @@
 
-class DynamicConnector {
+export default class DynamicConnector {
     constructor(options) {
       const defaults = {
         container: document.body,
@@ -72,4 +72,3 @@ class DynamicConnector {
     }
   }
 
-  export default DynamicConnector;

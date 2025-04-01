@@ -1,18 +1,10 @@
 body{
     margin: 0;
     overflow: hidden;
-    background: #0d0d0d;
-    color: aliceblue;
-}
-h2{
-    text-align: center;
- 
-    color: aliceblue;
-    font-size: 2rem;
+
 }
 canvas{
     display: block;
- 
 }
 #canvas-container {
     width: 1920PX;
