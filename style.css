@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background: #0d0d0d;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+ 
+    color: aliceblue;
+    font-size: 2rem;
+}
+canvas{
+    display: block;
+ 
+}
+#canvas-container {
+    width: 1920PX;
+    height: 1080PX;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #0d0d0d;
+  }

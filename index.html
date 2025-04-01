@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="canvas-container" style="position: relative;">
+        
+    </div>
+    <script type="module">
+      import DynamicConnector from './index.js';
+      new DynamicConnector({
+        container: document.getElementById('canvas-container'),
+        pointCount: 350,
+        lineColor: '#3498db'
+      });
+    </script>
+</body>
+</html>
